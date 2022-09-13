@@ -1,0 +1,41 @@
+.ja_title {
+  display: flex;
+  justify-content: space-between;
+}
+.timer {
+  text-align: center;font-family: 'Poppins', sans-serif;
+}
+.btns {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.ja_btn_wrap.optBack {
+  background-color: #de0e0e;
+  margin: 0 !important;
+  margin-top: 10px !important;
+  padding: 8px;
+  width: 110px;
+  border-radius: 7px;
+  cursor: pointer;
+  border: 2px solid #de0e0e !important;
+  transition: all 0.3s ease;
+}
+.ja_btn_wrap.optBack a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.ja_btn_wrap.optBack:hover {
+    text-decoration: none;
+    transition: all 0.3s ease;
+    
+    background-color: white;
+}
+.ja_btn_wrap.optBack:hover a{
+    transition: all 0.3s ease;
+ 
+  color: rgb(0, 0, 0);
+} 
